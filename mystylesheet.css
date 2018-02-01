@@ -2,5 +2,16 @@
     text-align: center;
 }
 body {
-    background-color: pink;
+    background-color: rgb(238, 0, 90);
+}
+.btn-cv {
+    text-decoration: none;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
