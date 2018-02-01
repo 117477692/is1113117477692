@@ -18,7 +18,7 @@
 
 .btn-Travel {
     background-color: #4CAF50; /* Green */
-    border: none;
+    border: 2px solid black;
     color: white;
     padding: 4px 10px;
     text-align: center;
@@ -28,7 +28,7 @@
 }
 .btn-Sport {
     background-color: #4CAF50; /* Green */
-    border: none;
+    border: 2px solid black;
     color: white;
     padding: 4px 10px;
     text-align: center;
