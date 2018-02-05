@@ -12,6 +12,7 @@
     </head>
     
     <body>
+        <center>
         <div style="background-color": rgb(0, 140, 1000); height:100vh>
         <h4>Select a product</h4>
         
@@ -55,7 +56,7 @@
         
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php" class="btn btn-Clear">Clear Choice</a>
+        <a role="button" href="Ebus1.php" class="btn btn-Clear">Clear Choice</a></center>
         </div>
     </body>
 </html>
