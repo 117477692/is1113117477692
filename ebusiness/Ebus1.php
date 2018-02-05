@@ -46,6 +46,7 @@
                 <input type="text" id="total" value="0.00" readonly/>
             </label>
             
+            
             <br/>
             
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>

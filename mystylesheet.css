@@ -67,13 +67,3 @@ body {
     display: inline-block;
     font-size: 16px;
 }
-.btn-Clear {
-    background-color: #4CAF50; /* Green */
-    border: 2px solid black;
-    color: white;
-    padding: 4px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
