@@ -73,7 +73,7 @@ body {
 }
 .btn-Ebus2 {
     background-color: #4CAF50; /* Green */
-    border: 2px solid black;
+    border: none;
     color: white;
     padding: 4px 10px;
     text-align: center;
