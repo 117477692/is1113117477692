@@ -25,11 +25,54 @@
     background-position: center;
     color: white;
 }
+#section4{
+    background-color: lightblue;
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
 
+#section5{
+    background-color: lightblue;
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
 
+#section6{
+    background-color: lightblue;
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+#section7{
+    background-color: lightblue;
+   
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+#section8{
+    background-color: lightblue;
+   
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
 .section{
     text-align: center;
     
+}
+.ex1 {
+    margin-right: 30px;
 }
 
 .btn-travel {
