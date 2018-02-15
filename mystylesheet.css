@@ -83,7 +83,8 @@ body {
     
 }
 .btn-GitHub {
-   display: inline-block;
+      
+  display: inline-block;
   padding: 1px 15px;
   font-size: 24px;
   cursor: pointer;
