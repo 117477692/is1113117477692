@@ -9,10 +9,13 @@ session_start()
         
     </head>
     <body>
+        <center>
         <h4>RECEIPT</h4>
+       
         <?php
         // Echo session variables that were set on previous page
         echo"Total is " . $_SESSION["total"] . ".";
         ?>
+     </center>    
     </body>
 </html>
