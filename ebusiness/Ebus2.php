@@ -24,11 +24,19 @@ session_start();
             
             <form method = "POST" action = "Ebus3.php">
                 
+                <label for="user_card">
+                    Card Number
+                </label>
+                
+                <input type="text" id="user_card" placeholder="Card Number" maxlength="16">
+                
                 <label for="user_pin">
                      PIN 
                 </label>
                 
                 <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
+                
+                
                     
                 <button type="Submit" id="btnPurchase" disabled> 
                     Proceed with Purchase 
@@ -39,7 +47,7 @@ session_start();
             <br />
             
             <button onClick="validateDetails()"> Validate </button>
-        
+            
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
         </center>
