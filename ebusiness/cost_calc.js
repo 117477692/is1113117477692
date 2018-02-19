@@ -4,11 +4,14 @@ function calcSub(){
     
     var argSubTotal;
     
-    if(document.getElementById('salesforce').checked) {
+    if(document.getElementById('SalesForce').checked) {
     argSubTotal = 100;
-}
-else {
+} else if(document.getElementById('Amazon Web Services').checked) {
     argSubTotal = 300;
+} else if(document.getElementById('Gmail').checked) {
+    argSubTotal = 250;
+} else {
+    argSubTotal = 200;
 }
 display(argSubTotal);
 }

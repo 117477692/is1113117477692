@@ -3,7 +3,7 @@
     <head>
         <title>Select Product</title>
         
-        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+       <link rel="stylesheet" href="Ebus.css" type="text/css" />
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -29,7 +29,21 @@
             
             <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
-                AWS @ $300
+                AmazonWebServices @ $300
+            </label>
+            
+            </br>
+            
+             <label for="cloud">
+                <input type="radio" id="cloud" name="product" onclick="disablebtnProceed()"/>
+                Cloud9 @ $200
+            </label>
+            
+            </br>
+            
+             <label for="gmail">
+                <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
+                Gmail @ $250
             </label>
             
             <br/>
