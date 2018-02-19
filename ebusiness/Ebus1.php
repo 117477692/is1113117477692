@@ -14,9 +14,14 @@
     <body>
         <center>
         <div style="background-color": rgb(0, 140, 1000); height:100vh>
+        <h1>Order Form</h1>
+        </br>
+        </br>
         <h4>Select a product</h4>
         
-        <br/>
+        </br>
+        </br>
+        </br>
         
         <form method="POST" action="Ebus2.php">
             

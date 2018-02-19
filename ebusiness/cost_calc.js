@@ -4,12 +4,15 @@ function calcSub(){
     
     var argSubTotal;
     
-    if(document.getElementById('SalesForce').checked) {
+    if(document.getElementById('salesforce').checked) {
     argSubTotal = 100;
-} else if(document.getElementById('Amazon Web Services').checked) {
+    
+} else if(document.getElementById('aws').checked) {
     argSubTotal = 300;
-} else if(document.getElementById('Gmail').checked) {
+    
+} else if(document.getElementById('gmail').checked) {
     argSubTotal = 250;
+    
 } else {
     argSubTotal = 200;
 }
@@ -26,5 +29,5 @@ function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
 }
 function disablebtnProceed(){
-    $('btnProceed').prop('disabled', true);
+    $('#btnProceed').prop('disabled', true);
 }
