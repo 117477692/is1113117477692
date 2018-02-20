@@ -20,9 +20,16 @@ session_start();
         
         <h4>Please enter your payment details.</h4>
         
-            <br />
+            <br/>
             
             <form method = "POST" action = "Ebus3.php">
+                
+                <label for="name">
+                Name
+                <input type="text" id="name" placeholder="name"/>
+            </label>
+                
+                </br>
                 
                 <label for="user_card">
                     Card Number
@@ -30,14 +37,16 @@ session_start();
                 
                 <input type="text" id="user_card" placeholder="Card Number" maxlength="16">
                 
+                </br>
+                
                 <label for="user_pin">
                      PIN 
                 </label>
                 
                 <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
                 
-                
-                    
+                </br>
+                </br>
                 <button type="Submit" id="btnPurchase" disabled> 
                     Proceed with Purchase 
                 </button>
@@ -54,7 +63,9 @@ session_start();
         <?php
         // Set session variables
         $_SESSION["total"] = $_POST["total"];
+       $_SESSION["name"] = $_POST["name"];
         ?>
     </body>
+           
     
 </html>
