@@ -31,3 +31,6 @@ function enablebtnProceed(){
 function disablebtnProceed(){
     $('#btnProceed').prop('disabled', true);
 }
+function name(parm2){
+    document.getElementById("name").value = parm2;
+}

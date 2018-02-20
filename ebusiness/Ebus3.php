@@ -1,5 +1,5 @@
 <?php
-session_start()
+session_start();
 
 ?>
 <!DOCTYPE html>
@@ -12,10 +12,11 @@ session_start()
     <body>
         <center>
         <h4>RECEIPT</h4>
-       
+      
+     
         <?php
         // Echo session variables that were set on previous page
-        echo"Name is " . $_SESSION["name"] . ".";
+        echo"Name is " . $_SESSION["fullname"] . ".";
         echo "</br> ";
         echo"Total is " . $_SESSION["total"] . ".";
         ?>

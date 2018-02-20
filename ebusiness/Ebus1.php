@@ -13,7 +13,7 @@
     
     <body>
         <center>
-        <div style="background-color": rgb(0, 140, 1000); height:100vh>
+       
         <h1>Order Form</h1>
         </br>
         </br>
@@ -78,6 +78,6 @@
         <a role="button" href="Ebus1.php" class="btn btn-Clear">Clear Choice</a>
         
         </center>
-        </div>
+        
     </body>
 </html>
