@@ -44,9 +44,9 @@ calcDisVatTotal();
     argVat = (400 - argDiscount) * 0.10;
     argTotal = ((400 - argDiscount) + argVat);
  } else {  
-     argDiscount = 400 * 0.05;
-    argVat = (400 - argDiscount) * 0.10;
-    argTotal = ((400 - argDiscount) + argVat);
+     argDiscount = 200 * 0.05;
+    argVat = (200 - argDiscount) * 0.10;
+    argTotal = ((200 - argDiscount) + argVat);
  }
 display(argSubTotal, argVat, argDiscount, argTotal)
 }
