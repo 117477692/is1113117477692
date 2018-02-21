@@ -30,8 +30,8 @@ calcDisVatTotal();
    
     
      if(document.getElementById('salesforce').checked) {
-    argVat = 10;
-    argDiscount = 5;
+    argDiscount = 100 * 0.05;
+    argVat = argDiscount * 0.10;
     argTotal = ((100 + 10) - 5);
     
  } else if(document.getElementById('aws').checked) { 
