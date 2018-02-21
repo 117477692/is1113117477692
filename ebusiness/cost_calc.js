@@ -35,18 +35,18 @@ calcDisVatTotal();
     argTotal = ((100 - argDiscount) + argVat);
     
  } else if(document.getElementById('aws').checked) { 
-    argVat = 300 * 0.10;
-    argDiscount = 300 * 0.05;
-    argTotal = ((300 + argVat) - argDiscount);
+     argDiscount = 300 * 0.05;
+    argVat = (300 - argDiscount) * 0.10;
+    argTotal = ((300 - argDiscount) + argVat);
     
  } else if(document.getElementById('gmail').checked) {
-    argVat = 250 * 0.10;
-    argDiscount = 250 * 0.05;
-    argTotal = ((250 + argVat) - argDiscount);
+     argDiscount = 400 * 0.05;
+    argVat = (400 - argDiscount) * 0.10;
+    argTotal = ((400 - argDiscount) + argVat);
  } else {  
-    argVat = 200 * 0.10;
-    argDiscount = 200 * 0.05;
-    argTotal = ((200 + argVat) - argDiscount);
+     argDiscount = 400 * 0.05;
+    argVat = (400 - argDiscount) * 0.10;
+    argTotal = ((4s00 - argDiscount) + argVat);
  }
 display(argSubTotal, argVat, argDiscount, argTotal)
 }
