@@ -114,7 +114,8 @@ margin:0px auto;
             </label>
             
             
-            <br/>
+            </br>
+            </br>
             
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
