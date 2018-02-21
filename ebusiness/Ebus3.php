@@ -32,7 +32,7 @@ session_start();
         echo "</br> ";
          echo "</br> ";
           echo "</br> ";
-        echo"Total is $" . $_SESSION["total"] . ".";
+        echo"Total is $" . $_SESSION["total"];
         
         ?>
      </center>    
