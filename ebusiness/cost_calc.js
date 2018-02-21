@@ -59,6 +59,23 @@ function display(parm1, parm2, parm3, parm4){
     
     enablebtnProceed();
 }
+function validateForm() {
+    var x = document.forms["myForm"]["fullname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+    var y = document.forms["myForm"]["email"].value;
+    if (y == "") {
+        alert("Email must be filled out");
+        return false;
+}
+var z = document.forms["myForm"]["address"].value;
+    if (z == "") {
+        alert("Address must be filled out");
+        return false;
+}
+}
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
@@ -66,3 +83,4 @@ function enablebtnProceed(){
 function disablebtnProceed(){
     $('#btnProceed').prop('disabled', true);
 }
+

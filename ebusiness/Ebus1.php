@@ -22,7 +22,8 @@ border:none;
 width:500px;
 margin:0px auto;
 }
-  </style>
+
+</style>
 
     </head>
     
@@ -33,9 +34,8 @@ margin:0px auto;
         
        
         
-        <form method="POST" action="Ebus2.php">
+        <form name="myForm" method="POST" onsubmit="return validateForm()" action="Ebus2.php">
             <h3>Enter your personal details</h3>
-           
                 <label for="fullname">
                 F.Name
                 <input type="text" id="fullname" name="fullname" placeholder="FullName"/>
@@ -126,6 +126,7 @@ margin:0px auto;
         <a role="button" href="Ebus1.php" class="btn btn-Clear">Clear Choice</a>
         
         </center>
+       
         
     </body>
 </html>

@@ -15,7 +15,7 @@ session_start();
     </head>
     <body>
         <center>
-        <h4>RECEIPT</h4>
+        <u><h4>RECEIPT</h4></u>
       
      
         <?php
