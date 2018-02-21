@@ -8,7 +8,21 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-  
+  <style>
+      label{
+display:inline-block;
+width:200px;
+margin-right:30px;
+text-align:right;
+}
+
+
+fieldset{
+border:none;
+width:500px;
+margin:0px auto;
+}
+  </style>
 
     </head>
     
