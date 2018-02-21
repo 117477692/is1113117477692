@@ -46,7 +46,7 @@ calcDisVatTotal();
  } else {  
      argDiscount = 400 * 0.05;
     argVat = (400 - argDiscount) * 0.10;
-    argTotal = ((4s00 - argDiscount) + argVat);
+    argTotal = ((400 - argDiscount) + argVat);
  }
 display(argSubTotal, argVat, argDiscount, argTotal)
 }
