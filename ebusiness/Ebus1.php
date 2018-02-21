@@ -32,17 +32,18 @@
             
             <br/>
             
+             <label for="cloud">
+                <input type="radio" id="cloud" name="product" onclick="disablebtnProceed()"/>
+                Cloud9 @ $200
+            </label>
+            
+            </br>
+            
             <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
                 AmazonWebServices @ $300
             </label>
             
-            </br>
-            
-             <label for="cloud">
-                <input type="radio" id="cloud" name="product" onclick="disablebtnProceed()"/>
-                Cloud9 @ $200
-            </label>
             
             </br>
             
@@ -61,16 +62,16 @@
             
             <br/>
             
+             <label for="discount">
+                Discount
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
+            </label>
+            
+              </br>
+              
             <label for="vat">
                 VAT
                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
-            </label>
-            
-            </br>
-            
-            <label for="discount">
-                Discount
-                <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
             </br>

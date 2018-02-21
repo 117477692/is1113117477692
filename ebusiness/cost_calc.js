@@ -16,7 +16,7 @@ function calcSub(){
     calcDisVatTotal();
     
 } else if(document.getElementById('gmail').checked) {
-    argSubTotal = 250;
+    argSubTotal = 400;
     calcDisVatTotal();
     
 } else {
