@@ -8,22 +8,40 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-        
+  
+
     </head>
     
     <body>
         <center>
        
         <h1>Order Form</h1>
-        </br>
-        </br>
-        <h4>Select a product</h4>
         
-        </br>
-        </br>
-        </br>
+       
         
         <form method="POST" action="Ebus2.php">
+            <h3>Enter your personal details</h3>
+           
+                <label for="fullname">
+                F.Name
+                <input type="text" id="fullname" name="fullname" placeholder="FullName"/>
+            </label>
+            </br>
+              <label for="email">
+                     E-mail 
+                <input type="email" name="email" placeholder="Email">
+                </label>
+                </br>
+                 <label for="address">
+                    Address
+                <input type="text" name="address" placeholder="Address">
+                </label>
+            
+            </br>
+            </br>
+            <h4>Select a product</h4>
+            
+           
             
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -41,7 +59,7 @@
             
             <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
-                AmazonWebServices @ $300
+                AWS @ $300
             </label>
             
             
@@ -70,7 +88,7 @@
               </br>
               
             <label for="vat">
-                VAT
+                V.A.T  
                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
             
