@@ -11,7 +11,7 @@ function validateDetails(){
         } else if (String(pin).length<4){
         alert("Please make sure your PIN is accurate");
         }else{
-        validateDetails2();
+                  validateDetails2();
     }
         
 function validateDetails2(){       
