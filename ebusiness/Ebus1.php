@@ -123,7 +123,7 @@ margin:0px auto;
         
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php" class="btn btn-Clear">Clear Choice</a>
+        <a role="button" href="Ebus1.php">Clear Choice</a>
         
         </center>
        
