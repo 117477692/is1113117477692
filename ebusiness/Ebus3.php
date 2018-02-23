@@ -36,6 +36,8 @@ session_start();
         
         ?>
      </center>    
-    
+    <br>
+    <br>
+    <a href="../homepage.html" class="btn-ebus">Ebus</a>
     </body>
 </html>
