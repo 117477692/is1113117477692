@@ -28,4 +28,15 @@ body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
+.btn-home {
+   text-decoration: none;
+    background-color: #4CAF50; /* Green */
+    border: 2px solid black;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}

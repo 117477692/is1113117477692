@@ -38,6 +38,7 @@ session_start();
      </center>    
     <br>
     <br>
-    <a href="../homepage.html" class="btn-ebus">Ebus</a>
+    <center> <a href="../homepage.html" class="btn-home">HomePage</a></center>
+   
     </body>
 </html>
