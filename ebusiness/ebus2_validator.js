@@ -24,10 +24,23 @@ function validateDetails2(){
     }else if (String(card).length<16){
         alert("Please make sure your card number is accurate");
     }else{
-        enablebtnPurchase();
+        validateDetails3();
         }
 }
-
+function validateDetails3(){
+    var cvv;
+    
+    cvv = document.getElementById("user_cvv").value;
+    
+    if (cvv==""){
+        alert("Please enter your card CVV");
+    }else if (String(cvv).length<3){
+        alert("Please make sure your card CVV number is accurate");
+    }else{
+        enablebtnPurchase();
+        }
+    
+}
 
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled',false);

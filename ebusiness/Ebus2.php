@@ -17,7 +17,22 @@ session_start();
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
-    
+     <style>
+      label{
+display:inline-block;
+width:90px;
+margin-right:10px;
+text-align:right;
+}
+
+
+fieldset{
+border:none;
+width:500px;
+margin:0px auto;
+}
+
+</style>
     <body>
         <center>
         
@@ -35,10 +50,20 @@ session_start();
                 
                 <input type="text" id="user_card" placeholder="Card Number" maxlength="16">
                 
+                <br>
+                
+                <label for="user_cvv">
+                    Card CVV
+                </label>
+                
+                <input type="text" id="user_cvv" placeholder="CVV" maxlength="3">
+                
+                
+                
                 </br>
                 
                 <label for="user_pin">
-                     PIN 
+                    Card PIN 
                 </label>
                 
                 <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
