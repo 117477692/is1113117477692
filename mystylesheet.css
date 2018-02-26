@@ -20,6 +20,8 @@ body {
     font-size: 16px;
     border-radius: 12px;
 }
+.btn-cv:hover {background-color: #3e8e41}
+
 .btn-interests {
     text-decoration: none;
     background-color: #4CAF50; /* Green */
@@ -32,6 +34,8 @@ body {
     font-size: 16px;
     border-radius: 12px;
 }
+.btn-interests:hover {background-color: #3e8e41}
+
 .btn-ebus {
     text-decoration: none;
     background-color: #4CAF50; /* Green */
@@ -44,6 +48,8 @@ body {
     font-size: 16px;
     border-radius: 12px;
 }
+.btn-ebus:hover {background-color: #3e8e41}
+
 .btn-yes {
     text-decoration: none;
     background-color: #4CAF50; /* Green */
@@ -56,6 +62,8 @@ body {
     font-size: 16px;
     border-radius: 12px;
 }
+.btn-yes:hover {background-color: #3e8e41}
+
 .btn-no {
     background-color: #4CAF50; /* Green */
     border: 2px solid black;
@@ -66,6 +74,8 @@ body {
     display: inline-block;
     font-size: 16px;
 }
+.btn-no:hover {background-color: #3e8e41}
+
 .btn-maybe {
     background-color: #4CAF50; /* Green */
     border: 2px solid black;
@@ -76,6 +86,8 @@ body {
     display: inline-block;
     font-size: 16px;
 }
+.btn-maybe:hover {background-color: #3e8e41}
+
 .btn-Ebus2 {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -87,6 +99,8 @@ body {
     font-size: 16px;
     
 }
+.btn-Ebus2:hover {background-color: #3e8e41}
+
 .btn-GitHub {
       
   display: inline-block;
