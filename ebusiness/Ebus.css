@@ -55,7 +55,7 @@ body {
     border-radius: 12px;
     
 }
-.btn-cancel:hover {background-color: #3e8e41}
+.btn-cancel:hover {background-color: darkred}
 
 .footer{
     position: fixed;
