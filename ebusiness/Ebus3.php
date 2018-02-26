@@ -38,7 +38,18 @@ session_start();
      </center>    
     <br>
     <br>
-    <center> <a href="../homepage.html" class="btn-home">HomePage</a></center>
+    <center>
+       
+    <a href="" onclick="Print()" class="btn-home">Print Receipt</a></center>
+    </center>
+
+<script>
+function Print() {
+    window.print();
+}
+</script>
+   
+    <center> <a href="../homepage.html" class="btn-home">Return to the HomePage</a></center>
    
     </body>
 </html>

@@ -54,6 +54,13 @@ session_start();
             <br />
             
             <button onClick="validateDetails()"> Validate </button>
+            <div align="center">
+            <div class="footer">
+            <center> <a href="../homepage.html" class="btn-cancel">Cancel Payment</a></center>
+            <br>
+            <br>
+        </div>
+        </div>
             
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
