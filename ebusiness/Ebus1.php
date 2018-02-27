@@ -96,14 +96,14 @@ margin:0px auto;
             <br/>
             
              <label for="discount">
-                Discount
+                Discount @ 5%
                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
               </br>
               
             <label for="vat">
-                V.A.T  
+                V.A.T @ 10%
                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
             

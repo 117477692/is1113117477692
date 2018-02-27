@@ -13,7 +13,7 @@ session_start();
         
         <link rel="stylesheet" href="Ebus.css" type="text/css" />
         
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
@@ -31,6 +31,8 @@ border:none;
 width:500px;
 margin:0px auto;
 }
+
+
 
 </style>
     <body>
@@ -81,7 +83,7 @@ margin:0px auto;
             <button onClick="validateDetails()"> Validate </button>
             <div align="center">
             <div class="footer">
-            <center> <a href="../homepage.html" class="btn-cancel">Cancel Payment</a></center>
+            <center> <a href="../homepage.html" onClick="Alert()" class="btn-cancel">Cancel Payment</a></center>
             <br>
             <br>
         </div>
@@ -100,7 +102,12 @@ margin:0px auto;
         
         ?>
         
-       
+       <script>
+  function Alert() {
+    alert("Your purchase has been cancelled");
+}
+</script>
+
     
     </body>
            
