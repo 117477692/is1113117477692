@@ -1,5 +1,5 @@
 /* global $ */
-
+// function to validate Details of pin
 function validateDetails(){
     
     var pin;
@@ -13,7 +13,7 @@ function validateDetails(){
         }else{
                   validateDetails2();
     }
-        
+        // function to validate details of card 
 function validateDetails2(){       
     var card;
     
@@ -27,6 +27,7 @@ function validateDetails2(){
         validateDetails3();
         }
 }
+// function to validate details of cvv
 function validateDetails3(){
     var cvv;
     
@@ -41,7 +42,7 @@ function validateDetails3(){
         }
     
 }
-
+// enabling the purchase button
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled',false);
 }

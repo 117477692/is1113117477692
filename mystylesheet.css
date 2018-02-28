@@ -1,6 +1,8 @@
+/* styling mainheading */
 .mainheading{
     text-align: center;
 }
+/* background image to fill screen */
 body {
     background-image:url("https://wallpapertag.com/wallpaper/full/e/5/4/418315-hd-wood-background-1920x1200-download.jpg");
     height: 100vh;
@@ -8,6 +10,7 @@ body {
     background-position: center;
   
 }
+/* stylng buttons with different effects such as hover and border */
 .btn-cv {
     text-decoration: none;
     background-color: #4CAF50; /* Green */
@@ -124,6 +127,7 @@ body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+/* Positioning my footer */
 .footer{
     position: fixed;
     left: 0;

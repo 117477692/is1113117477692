@@ -1,3 +1,4 @@
+/* adding styles to our my pages */
 body {
     background-image:url("https://wallpapertag.com/wallpaper/full/e/5/4/418315-hd-wood-background-1920x1200-download.jpg");
     height: 100vh;
@@ -5,6 +6,7 @@ body {
     background-position: center;
   
 }
+/* Stling my buttons and giving them effects such as hover and borders */
 .btn-bus {
       
   display: inline-block;
@@ -57,6 +59,7 @@ body {
 }
 .btn-cancel:hover {background-color: darkred}
 
+/* Positioning my footer */
 .footer{
     position: fixed;
     left: 0;

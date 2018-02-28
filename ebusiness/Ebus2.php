@@ -1,5 +1,5 @@
 <?php
-//Start the session
+//Starting the session
 session_start();
 
 ?>
@@ -17,6 +17,7 @@ session_start();
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
+     <!-- alligning labels -->
      <style>
       label{
 display:inline-block;
@@ -41,10 +42,12 @@ margin:0px auto;
         <h4>Please enter your payment details.</h4>
         
             <br/>
+             <!-- creating a form -->
             
             <form method = "POST" action = "Ebus3.php">
                 
                </br>
+                <!-- applying placeholders and maxlengths -->
                 
                 <label for="user_card">
                     Card Number
@@ -78,10 +81,13 @@ margin:0px auto;
                
             </form>
             
-            <br />
+            <br/>
             
+             <!-- button that calls on the function calidateDetails() -->
+             
             <button onClick="validateDetails()"> Validate </button>
             <div align="center">
+                 <!-- footer -->
             <div class="footer">
             <center> <a href="../homepage.html" onClick="Alert()" class="btn-cancel">Cancel Payment</a></center>
             <br>
@@ -92,6 +98,7 @@ margin:0px auto;
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
         </center>
+        
         <?php
         // Set session variables
         $_SESSION["fullname"] = $_POST["fullname"];
@@ -101,8 +108,9 @@ margin:0px auto;
        
         
         ?>
-        
+         <!-- alert function that was called on the cancel payment button -->
        <script>
+       
   function Alert() {
     alert("Your purchase has been cancelled");
 }

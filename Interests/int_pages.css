@@ -1,3 +1,4 @@
+/* differentiating the sections of pagepilling and adding background images to these sections */
 #section1{
     
     background-image:url("https://www.easyjet.com/en/holidays/shared/images/guides/spain/lanzarote.jpg");
@@ -71,7 +72,7 @@
 .ex1 {
     margin-right: 30px;
 }
-
+/* styling buttons */
 .btn-travel {
   display: inline-block;
   padding: 1px 15px;

@@ -8,7 +8,9 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+         <!-- alligning labels -->
    <style>
+  
       label{
 display:inline-block;
 width:200px;
@@ -33,7 +35,7 @@ margin:0px auto;
        
         <h1>Order Form</h1>
         
-       
+        <!-- creating a form which allows for user input and submitting the form calls the function validateForm() -->
         
         <form name="myForm" method="POST" onsubmit="return validateForm()" action="Ebus2.php">
             <h3>Enter your personal details</h3>
@@ -88,6 +90,7 @@ margin:0px auto;
             <br/>
             <br/>
             
+             <!-- readonly textboxes -->
             <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
@@ -123,6 +126,7 @@ margin:0px auto;
         </form>
         
         <br/>
+         <!-- buttons including a button that when clicked calls a function calcSub() -->
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
         
