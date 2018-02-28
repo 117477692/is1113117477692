@@ -31,26 +31,10 @@ calcDisVatTotal();
 //function to calculate vat discount and total price which was called from the last function
  function calcDisVatTotal(parmSubTotal){
    
-    
-     if(document.getElementById('salesforce').checked) {
-    argDiscountAmt = 100 * 0.05;
-    argVatAmt = (100 - argDiscountAmt) * 0.10;
-    argTotalPrice = ((100 -argDiscountAmt) + argVatAmt);
-    
- } else if(document.getElementById('aws').checked) { 
-    argDiscountAmt = 300 * 0.05;
-    argVatAmt = (300 - argDiscountAmt) * 0.10;
-    argTotalPrice = ((300 - argDiscountAmt) + argVatAmt);
-    
- } else if(document.getElementById('gmail').checked) {
-    argDiscountAmt = 400 * 0.05;
-    argVatAmt = (400 - argDiscountAmt) * 0.10;
-    argTotalPrice = ((400 - argDiscountAmt) + argVatAmt);
- } else {  
-    argDiscountAmt = 200 * 0.05;
-    argVatAmt = (200 - argDiscountAmt) * 0.10;
-    argTotalPrice = ((200 - argDiscountAmt) + argVatAmt);
- }
+    argDiscountAmt = argSubTotal * 0.05;
+    argVatAmt = (argSubTotal - argDiscountAmt) * .10;
+    argTotalPrice = (argSubTotal - argDiscountAmt) + argVatAmt;
+   
 display(argSubTotal, argVatAmt, argDiscountAmt, argTotalPrice)
 }
 
