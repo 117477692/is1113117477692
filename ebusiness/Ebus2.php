@@ -44,12 +44,12 @@ margin:0px auto;
         
         <h4>Please enter your payment details.</h4>
         
-            <br/>
+            <br>
              <!-- creating a form -->
             
             <form method = "POST" action = "Ebus3.php">
                 
-               </br>
+               <br>
                 <!-- applying placeholders and maxlengths -->
                 
                 <label for="user_card">
@@ -68,7 +68,7 @@ margin:0px auto;
                 
                 
                 
-                </br>
+                <br>
                 
                 <label for="user_pin">
                     Card PIN 
@@ -76,8 +76,8 @@ margin:0px auto;
                 
                 <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
                 
-                </br>
-                </br>
+                <br>
+                <br>
                 <button type="Submit" id="btnPurchase" disabled> 
                     Proceed with Purchase 
                 </button>
