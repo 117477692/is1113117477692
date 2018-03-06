@@ -73,7 +73,7 @@
     margin-right: 30px;
 }
 /* styling buttons */
-.btn-travel {
+.btn-Travel {
   display: inline-block;
   padding: 1px 15px;
   font-size: 24px;
@@ -88,9 +88,9 @@
   box-shadow: 0 9px #999;
 }
 
-.btn-travel:hover {background-color: #3e8e41}
+.btn-Travel:hover {background-color: #3e8e41}
 
-.btn-travel:active {
+.btn-Travel:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
