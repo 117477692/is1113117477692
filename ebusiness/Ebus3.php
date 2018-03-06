@@ -17,6 +17,7 @@ session_start();
     </head>
     <body>
         <center>
+            <div style="width:700px; border:6px outset green;background:white; margin:auto">
         <h4><u>RECEIPT</u></h4>
       
      <!-- displaying variables that were posted from previous pages -->
@@ -34,12 +35,14 @@ session_start();
         echo "<br> ";
          echo "<br> ";
           echo "<br> ";
-        echo"Total is $" . $_SESSION["total"];
-        
+        echo"Total is $" . $_SESSION["total"] . ".";
+        echo "<br>";
         ?>
-        
-    <br>
-    <br>
+       <br>
+    </div>
+     
+        <br>
+    
     
        <!-- a button that alllows us to print by calling a function -->
     <a href="" onclick="Print()" class="btn-home">Print Receipt</a>
