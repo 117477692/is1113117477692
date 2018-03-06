@@ -17,7 +17,7 @@ session_start();
     </head>
     <body>
         <center>
-            <div style="width:700px; border:6px outset green;background:white; margin:auto">
+            <div style="width:475px; border:6px outset green;background:white; margin:auto">
         <h4><u>RECEIPT</u></h4>
       
      <!-- displaying variables that were posted from previous pages -->
