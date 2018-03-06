@@ -17,41 +17,41 @@ session_start();
     </head>
     <body>
         <center>
-        <u><h4>RECEIPT</h4></u>
+        <h4><u>RECEIPT</u></h4>
       
      <!-- displaying variables that were posted from previous pages -->
         <?php
         // Echo session variables that were set on previous page
         echo"Name is " . $_SESSION["fullname"] . ".";
-        echo "</br> ";
-         echo "</br> ";
-          echo "</br> ";
+        echo "<br> ";
+         echo "<br> ";
+          echo "<br> ";
         echo"Email is " . $_SESSION["email"] . ".";
-        echo "</br> ";
-         echo "</br> ";
-          echo "</br> ";
+        echo "<br> ";
+         echo "<br> ";
+          echo "<br> ";
         echo"Address is " . $_SESSION["address"] . ".";
-        echo "</br> ";
-         echo "</br> ";
-          echo "</br> ";
+        echo "<br> ";
+         echo "<br> ";
+          echo "<br> ";
         echo"Total is $" . $_SESSION["total"];
         
         ?>
-     </center>    
+        
     <br>
     <br>
-    <center>
+    
        <!-- a button that alllows us to print by calling a function -->
-    <a href="" onclick="Print()" class="btn-home">Print Receipt</a></center>
-    </center>
-
+    <a href="" onclick="Print()" class="btn-home">Print Receipt</a>
+    
+<br>
 <script>
 function Print() {
     window.print();
 }
 </script>
    <!-- button to homepage -->
-    <center> <a href="../homepage.html" class="btn-home">Return to the HomePage</a></center>
+     <a href="../homepage.html" class="btn-home">Return to the HomePage</a></center>
    
     </body>
 </html>

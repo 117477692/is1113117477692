@@ -43,19 +43,19 @@ margin:0px auto;
                 F.Name
                 <input type="text" id="fullname" name="fullname" placeholder="FullName"/>
             </label>
-            </br>
+            <br>
               <label for="email">
                      E-mail 
-                <input type="email" name="email" placeholder="Email">
+                <input type="email" name="email" id="email" placeholder="Email">
                 </label>
-                </br>
+                <br>
                  <label for="address">
                     Address
-                <input type="text" name="address" placeholder="Address">
+                <input type="text" id="address" name="address" placeholder="Address">
                 </label>
             
-            </br>
-            </br>
+            <br>
+            <br>
             <h4>Select a product</h4>
             
            
@@ -65,14 +65,14 @@ margin:0px auto;
                 SalesForce @ $100
             </label>
             
-            <br/>
+            <br>
             
              <label for="cloud">
                 <input type="radio" id="cloud" name="product" onclick="disablebtnProceed()"/>
                 Cloud9 @ $200
             </label>
             
-            </br>
+            <br>
             
             <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
@@ -80,15 +80,15 @@ margin:0px auto;
             </label>
             
             
-            </br>
+            <br>
             
              <label for="gmail">
                 <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
                 Gmail @ $250
             </label>
             
-            <br/>
-            <br/>
+            <br>
+            <br>
             
              <!-- readonly textboxes -->
             <label for="subtotal">
@@ -96,21 +96,21 @@ margin:0px auto;
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
             
-            <br/>
+            <br>
             
              <label for="discount">
                 Discount @ 5%
                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
-              </br>
+              <br>
               
             <label for="vat">
                 V.A.T @ 10%
                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
             
-            </br>
+            <br>
             
             <label for="total">
                 Total
@@ -118,14 +118,14 @@ margin:0px auto;
             </label>
             
             
-            </br>
-            </br>
+            <br>
+            <br>
             
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
         
-        <br/>
+        <br>
          <!-- buttons including a button that when clicked calls a function calcSub() -->
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
